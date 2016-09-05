@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background-color: #333;
+    padding-left: 40px;
+}
+
+li {
+    /*float: left;*/
+    display: inline-block;
+
+}
+
+li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+.the_icon {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  top: 10px;
+  left: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+
+}
+
+
+
+
+
+
+/*this part mostly makes sense to me below */
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+.cat1, .dog1 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.content1 {
+  position: relative;
+  border: 10px green dotted;
+  height: 300px;
+  width: 600px;
+  margin-left: 25%;
+}
+
+
+.cat1 {
+  top: -90px;
+  left: -90px;
+}
+
+.dog1 {
+  bottom: -120px;
+  right: -60px;
+
+}

@@ -1,0 +1,51 @@
+main {
+  font-size: 0;
+  width: 800px;
+}
+
+/*.container1 {
+  border: 1px black solid;
+}*/
+
+/*.container1 div {
+  display: inline-block;
+}*/
+.green {
+  border: 1px black solid;
+  display: inline-block;
+  background-color: green;
+  height: 200px;
+  width: 50%;
+}
+
+.blue {
+  border: 1px black solid;
+  display: inline-block;
+  background-color: blue;
+  height: 200px;
+  width: 50%;
+}
+
+.gray {
+  border: 1px black solid;
+  display: inline-block;
+  background-color: gray;
+  width: 33.33%;
+  height: 300px;
+}
+
+.black {
+  border: 1px black solid;
+  display: inline-block;
+  background-color: black;
+  width: 33.33%;
+  height: 300px;
+}
+
+.orange {
+  border: 1px black solid;
+  display: inline-block;
+  background-color: orange;
+  width: 33.33%;
+  height: 300px;
+}
